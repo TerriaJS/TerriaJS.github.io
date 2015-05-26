@@ -23,14 +23,6 @@ a {
   z-index: 10;
 }
 
-.header2 {
-  background-color: #b9ff6d;
-  height: 4px;
-  width: 100%;
-  position: relative;
-  z-index: 10;
-}
-
 @media (max-width:767px) {
   section.top {
     text-align: center;
@@ -55,7 +47,7 @@ a {
 }
 
 .terria-logo {
-  padding: 10px 0;
+  padding: 0px 0;
 }
 
 .terria-description {
@@ -70,7 +62,7 @@ a {
 }
 
 section {
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 
 section .container {
@@ -110,7 +102,7 @@ section .container {
 }
 
 .develop {
-  background: rgba(185, 255, 109, 0.8);
+  background: rgba(163, 220, 231, 0.6);
 }
 
 .develop-background {
