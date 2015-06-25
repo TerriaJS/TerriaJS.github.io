@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="23px" height="31px" viewBox="0 0 23 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+    <title>pdf-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Artboard-1" sketch:type="MSArtboardGroup" transform="translate(-34.000000, -429.000000)">
+            <g id="pdf-icon" sketch:type="MSLayerGroup" transform="translate(35.000000, 430.000000)">
+                <g id="document-view-copy" stroke="#2B333D" stroke-width="1.66736842" sketch:type="MSShapeGroup">
+                    <path d="M12.862726,0.825358852 L2.51059801,0.825358852 C1.12403302,0.825358852 1.84814921e-13,1.94274746 1.84906428e-13,3.32802742 L1.86429471e-13,26.3848912 C1.86520773e-13,27.7670769 1.11842866,28.8875598 2.50084253,28.8875598 L18.5783985,28.8875598 C19.9595757,28.8875598 21.0792411,27.7681073 21.0792411,26.3878223 L21.0792411,9.61542558" id="Path-328" stroke-linecap="round"></path>
+                    <path d="M20.1930243,9.92081692 C21.1152931,9.92081692 21.3474425,9.37421054 20.7175965,8.70635457 L13.6676646,1.23097306 C13.035109,0.56024402 12.5223214,0.760943416 12.5223214,1.67426888 L12.5223214,8.26305874 C12.5223214,9.17861331 13.270914,9.92081692 14.1922368,9.92081692 L20.1930243,9.92081692 Z" id="Path-328"></path>
+                </g>
+                <text id="PDF" sketch:type="MSTextLayer" font-family="Helvetica Neue" font-size="8" font-weight="bold" sketch:alignment="middle" fill="#2B333D">
+                    <tspan x="2.996" y="25">PDF</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

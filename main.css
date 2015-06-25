@@ -123,6 +123,15 @@ footer {
 }
 
 
+/* Downloads */
+
+.download {
+	background: none,url(images/pdf-icon.svg) left center no-repeat;
+	background-size: 22px 30px;
+	padding: 5px 0 5px 35px;
+}
+
+
 
 /* Media queries for reference */
 /* @media(max-width:767px){} */
