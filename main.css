@@ -11,6 +11,13 @@ h2 {
   font-family: 'Roboto', sans-serif;
 }
 
+h3 {
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
 a {
   color: #00A9CB;
 }
@@ -123,7 +130,7 @@ footer {
 }
 
 
-/* Downloads */
+/* Custom styles (to be revised) */
 
 .download {
 	background: none,url(images/pdf-icon.svg) left center no-repeat;
@@ -131,7 +138,13 @@ footer {
 	padding: 5px 0 5px 35px;
 }
 
+.mediaLinks {
+	padding-left: 15px;
+}
 
+.mediaLinks li {
+	margin-bottom: 10px;
+}
 
 /* Media queries for reference */
 /* @media(max-width:767px){} */
