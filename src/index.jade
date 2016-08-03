@@ -1,20 +1,11 @@
 doctype html
 html(class='no-js', lang="en")
-  head
-    meta(charset='utf-8')
-    meta(http-equiv='X-UA-Compatible', content='IE=edge')
-    title= 'Terria'
-    meta(name='description', content='')
-    meta(name='viewport', content='width=device-width, initial-scale=1')
-    link(rel ='stylesheet', href='./index.css')
+  include ./includes/head.jade
   body(class='terria')
     header
       h1 Terrio.io
       button give me your money
       nav
-
     main
-    footer
-    <!--[if !IE 8]><!-->
-    script(src='./index.js')
-    <![endif]-->
+      include ./includes/section.jade
+    include ./includes/foot.jade
