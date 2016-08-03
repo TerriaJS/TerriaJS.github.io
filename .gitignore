@@ -1,0 +1,14 @@
+.DS_Store
+
+# Logs
+logs
+*.log
+
+# Dev
+.sass-cache/
+node_modules/
+build/
+
+
+public/assets/css
+public/assets/javascripts

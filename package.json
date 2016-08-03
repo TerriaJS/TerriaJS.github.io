@@ -1,0 +1,32 @@
+{
+  "name": "terria.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TerriaJS/TerriaJS.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TerriaJS/TerriaJS.github.io/issues"
+  },
+  "homepage": "https://github.com/TerriaJS/TerriaJS.github.io#readme",
+  "devDependencies": {
+    "babel-eslint": "^6.1.2",
+    "babelify": "^7.3.0",
+    "browserify": "^13.1.0",
+    "eslint": "^3.2.2",
+    "gulp": "^3.9.1",
+    "gulp-jade": "^1.1.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.7.0"
+  }
+}
