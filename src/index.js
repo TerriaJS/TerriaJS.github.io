@@ -1,5 +1,7 @@
 const THREE = require('three');
 
+const HEIGHT = 450;
+
 let scene = new THREE.Scene();
 let camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
 camera.up = new THREE.Vector3(0, 1, 0);
@@ -8,20 +10,21 @@ camera.position.z = 50;
 
 
 function makePlane(geometry){
-  let material = new THREE.MeshBasicMaterial({
-          color: 0xffffff,
-          shading: THREE.FlatShading
-        });
+  var material = new THREE.MeshLambertMaterial({color: 0xffffff, shading: THREE.FlatShading});
   let terrain = new THREE.Mesh( geometry, material);
   return terrain;
 }
 
 function init(){
-  let renderer = new THREE.WebGLRenderer();
-  renderer.setSize( window.innerWidth, 400 );
+  let renderer = new THREE.WebGLRenderer({antialiasing: true, alpha: true});
+  scene.fog = new THREE.FogExp2(0x222228, 0.003);
+  renderer.setSize( window.innerWidth, HEIGHT );
   let container = document.getElementById('terrain');
   container.appendChild( renderer.domElement );
-  scene.add( makePlane(makePlaneGeometry(window.innerWidth, 400, 100, 30)));
+
+  makeLights();
+
+  scene.add( makePlane(makePlaneGeometry(window.innerWidth, HEIGHT, 100, 80)));
   render(renderer);
 }
 
@@ -56,13 +59,12 @@ function makePlaneGeometry(width, height, widthSegments, heightSegments) {
 }
 
 var makeLights = function() {
-  var ambientLight = new THREE.AmbientLight(0x1a1a1a);
+  var ambientLight = new THREE.AmbientLight(0x262626);
   scene.add(ambientLight);
 
   var dirLight = new THREE.DirectionalLight(0xdfe8ef, 0.09);
   dirLight.position.set(5, 2, 1);
   scene.add(dirLight);
 };
-
 
 init();
