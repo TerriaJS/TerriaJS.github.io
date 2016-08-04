@@ -53,7 +53,7 @@ gulp.task('build', ['jade', 'css'], function() {
 
 gulp.task('watch', function() {
   gulp.watch(['./src/css/**/*.scss', './src/index.scss'], ['css']);
-  gulp.watch(['./src/index.jade'], ['jade']);
+  gulp.watch(['./src/index.jade', './src/**/*.jade', './src/**/*.md'], ['jade']);
   return watch();
 });
 
