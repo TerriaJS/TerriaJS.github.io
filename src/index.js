@@ -6,7 +6,8 @@ let scene = new THREE.Scene();
 let camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
 camera.up = new THREE.Vector3(0, 1, 0);
 camera.rotation.x = 75 * Math.PI / 180;
-camera.position.z = 50;
+camera.rotation.y = 20 * Math.PI / 180;
+camera.position.z = 10;
 
 
 function makePlane(geometry){
@@ -24,7 +25,7 @@ function init(){
 
   makeLights();
 
-  scene.add( makePlane(makePlaneGeometry(window.innerWidth, HEIGHT, 100, 80)));
+  scene.add( makePlane(makePlaneGeometry(window.innerWidth, 400, 100, 100)));
   render(renderer);
 }
 
@@ -62,7 +63,7 @@ var makeLights = function() {
   var ambientLight = new THREE.AmbientLight(0x262626);
   scene.add(ambientLight);
 
-  var dirLight = new THREE.DirectionalLight(0xdfe8ef, 0.09);
+  var dirLight = new THREE.DirectionalLight(0xdfe8ef, 0.1);
   dirLight.position.set(5, 2, 1);
   scene.add(dirLight);
 };
