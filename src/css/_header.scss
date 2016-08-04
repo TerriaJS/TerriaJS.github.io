@@ -1,4 +1,4 @@
-$header-height: 300px;
+$header-height: 400px;
 $header-color: rgba(100, 11, 20, 0.1);
 
 header{
@@ -19,4 +19,18 @@ header{
     border: 0;
     box-shadow: none;
   }
+
+  .content{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+}
+
+
+#terrain{
+
 }
