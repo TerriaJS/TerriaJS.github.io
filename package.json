@@ -25,7 +25,10 @@
     "gulp-jade": "^1.1.0",
     "gulp-sass": "^2.3.2",
     "gulp-sourcemaps": "^1.6.0",
+    "install": "^0.8.1",
     "jstransformer-markdown": "^1.1.0",
+    "npm": "^3.10.5",
+    "three": "^0.79.0",
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0",
     "watchify": "^3.7.0"

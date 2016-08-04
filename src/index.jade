@@ -5,15 +5,17 @@ html(class='no-js', lang="en")
     header
       .container
         h1
-          strong Terrio
-          span is a browser-based platform for exploring and analysing spatial data
+          strong Terria
+          span  is a browser-based platform for exploring and analysing spatial data
         p
           span Open Source
           span Catalogue Enabled
           span Supports 2D & 3D Visualisation
 
         button Get Started with Terria
-    main
-      .container
-        include:markdown ./content/section.md
+      #terrain
+    main.container
+      .row
+        .col-sm-6
+          include:markdown ./content/section.md
     include ./includes/foot.jade
