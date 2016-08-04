@@ -1,11 +1,12 @@
 $header-height: 400px;
-$header-color: rgba(100, 11, 20, 0.1);
+$header-color: rgba(100, 11, 20, 0);
 
 header{
   height: $header-height;
   background: $header-color;
   color: #fff;
   text-align: center;
+  position: relative;
 
   h1{
     font-weight: 400;
@@ -13,7 +14,7 @@ header{
 
   button{
     background: #fff;
-    color: $header-color;
+    color: #000;
     padding: 10px;
     border-radius: 50px;
     border: 0;
@@ -27,6 +28,7 @@ header{
     left: 0;
     right: 0;
     bottom: 0;
+    background: $header-color;
   }
 }
 

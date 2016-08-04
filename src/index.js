@@ -8,7 +8,10 @@ camera.position.z = 50;
 
 
 function makePlane(geometry){
-  let material = new THREE.MeshBasicMaterial( {color: 0xffffff, wireframe: true, shading: THREE.FlatShading});
+  let material = new THREE.MeshBasicMaterial({
+          color: 0xffffff,
+          shading: THREE.FlatShading
+        });
   let terrain = new THREE.Mesh( geometry, material);
   return terrain;
 }
@@ -19,14 +22,6 @@ function init(){
   let container = document.getElementById('terrain');
   container.appendChild( renderer.domElement );
   scene.add( makePlane(makePlaneGeometry(window.innerWidth, 400, 100, 30)));
-
-
-  let ambientLight = new THREE.AmbientLight(0x1a1a1a);
-  scene.add(ambientLight);
-
-  let dirLight = new THREE.DirectionalLight(0xdfe8ef, 0.09);
-  dirLight.position.set(5, 2, 1);
-  scene.add(dirLight);
   render(renderer);
 }
 
@@ -60,7 +55,14 @@ function makePlaneGeometry(width, height, widthSegments, heightSegments) {
   return geometry;
 }
 
+var makeLights = function() {
+  var ambientLight = new THREE.AmbientLight(0x1a1a1a);
+  scene.add(ambientLight);
 
+  var dirLight = new THREE.DirectionalLight(0xdfe8ef, 0.09);
+  dirLight.position.set(5, 2, 1);
+  scene.add(dirLight);
+};
 
 
 init();
