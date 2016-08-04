@@ -3,9 +3,17 @@ html(class='no-js', lang="en")
   include ./includes/head.jade
   body(class='terria')
     header
-      h1 Terrio.io
-      button give me your money
-      nav
+      .container
+        h1
+          strong Terrio
+          span is a browser-based platform for exploring and analysing spatial data
+        p
+          span Open Source
+          span Catalogue Enabled
+          span Supports 2D & 3D Visualisation
+
+        button Get Started with Terria
     main
-      include:markdown ./content/section.md
+      .container
+        include:markdown ./content/section.md
     include ./includes/foot.jade
