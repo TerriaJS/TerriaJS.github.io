@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="112px" height="112px" viewBox="0 0 112 112" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 40.1 (33804) - http://www.bohemiancoding.com/sketch -->
+    <title>F545E841-6987-4549-88CD-9EDE56E39D86</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <circle id="path-1" cx="56" cy="56" r="56"></circle>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="112" height="112" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <ellipse id="path-3" cx="56" cy="56" rx="56" ry="9.33333333"></ellipse>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="112" height="18.6666667" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <ellipse id="path-5" cx="56" cy="56" rx="56" ry="28"></ellipse>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="112" height="56" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+    </defs>
+    <g id="Mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="terria-io-mobile-homepage-copy-2" transform="translate(-132.000000, -1755.000000)">
+            <g id="feature-2D3D-Copy-5" transform="translate(132.000000, 1755.000000)">
+                <use id="Oval-6" stroke="#3F4854" mask="url(#mask-2)" stroke-width="6.4" xlink:href="#path-1"></use>
+                <use id="Oval-6-Copy-3" stroke="#3F4854" mask="url(#mask-4)" stroke-width="6.4" xlink:href="#path-3"></use>
+                <use id="Oval-6-Copy-4" stroke="#3F4854" mask="url(#mask-6)" stroke-width="6.4" transform="translate(56.000000, 56.000000) rotate(-90.000000) translate(-56.000000, -56.000000) " xlink:href="#path-5"></use>
+                <g id="face" transform="translate(49.280000, 23.520000)" fill="#3F4854">
+                    <ellipse id="Oval-6-Copy" cx="1.10943253" cy="1.0861297" rx="0.992951661" ry="1.04933484"></ellipse>
+                    <ellipse id="Oval-6-Copy-2" cx="12.0319008" cy="1.0861297" rx="0.992951661" ry="1.04933484"></ellipse>
+                    <path d="M6.57066667,9.48080841 C13.0248525,9.48080841 13.0248525,4.23413422 13.0248525,4.23413422 L0.116480868,4.23413422 C0.116480868,4.23413422 0.116480868,9.48080841 6.57066667,9.48080841 Z" id="Oval-7"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

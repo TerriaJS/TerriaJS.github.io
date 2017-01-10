@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128px" height="98px" viewBox="0 0 128 98" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 40 (33762) - http://www.bohemiancoding.com/sketch -->
+    <title>D20E1EEB-16D8-40BD-AEE6-67CD2F54EACD</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="127.924313" height="92.080579" rx="1.92"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="127.924313" height="92.080579" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <path d="M117.379852,85.674971 C120.456336,85.8910138 122.884734,88.4438632 122.884734,91.5627625 C122.884734,94.8226791 120.235381,97.4653637 116.956585,97.4653637 L101.569742,97.4653637 C101.568788,97.4653637 101.567833,97.4653635 101.566879,97.465363 C101.565924,97.4653635 101.56497,97.4653637 101.564015,97.4653637 C97.638979,97.4653637 94.4571087,94.2941422 94.4571087,90.3822422 C94.4571087,86.7309976 97.2290809,83.7250149 100.790043,83.34064 C102.272281,80.5096582 105.24515,78.5770398 108.670921,78.5770398 C112.973996,78.5770398 116.562499,81.6262484 117.379852,85.674971 L117.379852,85.674971 Z" id="path-3"></path>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="28.4276252" height="18.8883239" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+    </defs>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="terria-io-web-homepage-copy-7" transform="translate(-192.000000, -1818.000000)">
+            <g id="Group-24" transform="translate(126.000000, 1807.000000)">
+                <g id="feature-browser-copy-3" transform="translate(66.000000, 11.000000)">
+                    <g id="Group-12">
+                        <use id="Rectangle-2" stroke="#3F4854" mask="url(#mask-2)" stroke-width="6.4" xlink:href="#path-1"></use>
+                        <path d="M127.924313,14.7924945 L1.56319402e-13,14.7924945" id="Line" stroke="#3F4854" stroke-width="3.2" transform="translate(63.962157, 14.792495) scale(-1, 1) translate(-63.962157, -14.792495) "></path>
+                        <g id="face" transform="translate(50.814380, 44.623665)" fill="#3F4854">
+                            <ellipse id="Oval-6-Copy" cx="2.21995299" cy="2.052626" rx="1.98687703" ry="1.98308911"></ellipse>
+                            <ellipse id="Oval-6-Copy-2" cx="24.0756003" cy="2.052626" rx="1.98687703" ry="1.98308911"></ellipse>
+                            <path d="M13.1477767,17.9173388 C26.0624774,17.9173388 26.0624774,8.00189331 26.0624774,8.00189331 L0.233075959,8.00189331 C0.233075959,8.00189331 0.233075959,17.9173388 13.1477767,17.9173388 Z" id="Oval-7"></path>
+                        </g>
+                        <ellipse id="Oval-8" stroke="#3F4854" stroke-width="2" stroke-linecap="square" cx="9.23897819" cy="8.14558968" rx="2.13207189" ry="2.12493644"></ellipse>
+                        <ellipse id="Oval-8-Copy" stroke="#3F4854" stroke-width="2" stroke-linecap="square" cx="17.0565751" cy="8.14558968" rx="2.13207189" ry="2.12493644"></ellipse>
+                        <ellipse id="Oval-8-Copy-2" stroke="#3F4854" stroke-width="2" stroke-linecap="square" cx="24.8741721" cy="8.14558968" rx="2.13207189" ry="2.12493644"></ellipse>
+                    </g>
+                    <use id="Combined-Shape" stroke="#3F4854" mask="url(#mask-4)" stroke-width="6.4" fill="#F5F5F2" xlink:href="#path-3"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
